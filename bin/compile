@@ -2,6 +2,6 @@
 
 apt-get update && apt-get install -y libmcrypt-dev
 
-wget https://github.com/docker-library/php/blob/master/docker-php-ext-install
+wget https://raw.githubusercontent.com/docker-library/php/master/docker-php-ext-install
 chmod 0777 docker-php-ext-install
 ./docker-php-ext-install iconv mcrypt
