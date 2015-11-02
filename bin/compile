@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
 
-apt-get update && apt-get install -y libmcrypt-dev php5-mcrypt
-php5enmod mcrypt
+sudo apt-get update && apt-get install -y libmcrypt-dev php5-mcrypt
+sudo php5enmod mcrypt
