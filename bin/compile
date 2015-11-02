@@ -1,3 +1,4 @@
 #!/usr/bin/env bash
 
+mkdir -p /usr/local/etc/php/conf.d/
 echo "extension=mcrypt.so" > /usr/local/etc/php/conf.d/docker-php-ext-mcrypt.ini
